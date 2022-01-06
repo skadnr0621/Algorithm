@@ -4,4 +4,4 @@
 ___
 
 ## Algorithm List
--[ ] 재귀
+[ ] 재귀
