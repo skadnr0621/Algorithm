@@ -1,4 +1,4 @@
-## Sort 정렬
+## Sort 정렬 - 기본 개념과 메소드 활용
 
 
 
@@ -16,13 +16,13 @@
 
 - **배열 오름차순 정렬**
   
-  - Arrays.sort() 메서드의 매개값으로 기본 타입 배열이나 String 배열 지정시 자동으로 오름차순 정렬이 됩니다. **기본이 오름차순! /**
+  - Arrays.sort() 메서드의 매개값으로 기본 타입 배열이나 String 배열 지정시 자동으로 오름차순 정렬이 됩니다. **기본이 오름차순! **
     ex) **Arrays.sort(arr);**
   
-- **배열 내림차순\ 정렬**
+- **배열 내림차순 정렬**
   
-  - 내림차순 정렬할 때는 Collections 클래스의 reverseOrder() 메서드를 사용합니다. 
-    ex) Collections.reverseOrder()
+  - 내림차순 정렬할 때는 Collections 클래스의 **reverseOrder()** 메서드를 사용합니다. 
+    ex) Collections.reverseOrder()																								
     ex) **Arrays.sort(arr, Collections.reverseOrder());**
   - 기본타입 배열을 내림차순으로 정렬하고 싶을 시 기본 타입의 배열을 래퍼클래스로 만들어(?) Comparator를 두번째 인자로 넣어줘야 역순으로 정렬 가능. 
     - 주의! String은 기본타입이 아닙니다. 
